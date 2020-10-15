@@ -26,7 +26,7 @@ class Main {
 		for(int i = 0; i < 10; i++)
 			System.out.println(dataSet.getDataPoint(i));
 		
-		ClassificationDataSet cDataSet = new ClassificationDataSet(dataSet, 0)
+		ClassificationDataSet cDataSet = new ClassificationDataSet(dataSet, 0);
 
 		int errors = 0;
 		Classifier classifier = new NaiveBayes();
