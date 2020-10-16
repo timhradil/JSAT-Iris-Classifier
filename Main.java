@@ -1,3 +1,9 @@
+/*
+* A very simple classifier of the Iris data set using JSAT.
+* 
+* @author Tim Hradil
+*/
+
 import java.io.File;
 import jsat.ARFFLoader;
 import jsat.DataSet;
